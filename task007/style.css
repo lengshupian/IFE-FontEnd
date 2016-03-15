@@ -14,6 +14,10 @@ a{
 li{
   list-style: none;
 }
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
 
 html{
   font-size: 62.5%;
@@ -221,4 +225,130 @@ header{
 .sec5{
   height: 605px;
   background-color: #f7f7f7;
+}
+.sec5-wrap{
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 100px 130px;
+}
+.colum-wrap{
+  float: left;
+  width: 25%;
+  height: 100%;
+  padding: 0 18px;
+  text-align: center;
+}
+.pic{
+  height: 337px;
+  padding: 12px 7px;
+  border: 1px solid #e1dedc;
+  background-color: #fff;
+}
+.colum-wrap h5{
+  font-weight: 300;
+  margin-top: 12px;
+}
+.colum-wrap p{
+  font-size: 1.2rem;
+  color: #968e8a;
+  margin: 10px 0;
+}
+.colum-wrap h4{
+  padding: 0 10px;
+  font-weight: 300;
+  text-align: justify;
+  text-align-last:justify;
+  font-size: 2.1rem;
+}
+.sec6{
+  height: 565px;
+}
+.pic-wrap{
+  float: left;
+  height: 100%;
+  width: 66.6666%;
+  background: url(images/sec6pic_03.jpg) no-repeat center;
+  background-size: cover;
+}
+.content-wrap{
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.content-title{
+  margin-top: 160px;
+}
+.content-title h4{
+  display: inline;
+  font-size: 2.1rem;
+  font-weight: 300;
+}
+.content-title span{
+  position: relative;
+  padding-left: 20px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 2.1rem;
+  color: #e74f4d;
+}
+.content-title span:before{
+  display: block;
+  content: '';
+  width: 1px;
+  height: 28px;
+  position: absolute;
+  background-color: #323333;
+  top: -2px;
+  left: 8px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.content-wrap p{
+  width: 290px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #aaa;
+  text-align: justify;
+  line-height: 2.5;
+}
+.content-wrap a{
+  display: inline-block;
+  color: #e46868;
+  font-size: 1.2rem;
+  padding: 8px 27px;
+  margin-top: 48px;
+  border: 1px solid;
+}
+.content-wrap a:hover{
+  background-color: #e46868;
+  color: #fff;
+  border-color: #e46868;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.pagination{
+  margin-top: 25px;
+}
+.pagination li{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 7px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #929292;
+  cursor: pointer;
+}
+.pagination li.selected{
+  background-color: #929292;
+}
+.sec7{
+  height: 520px;
+}
+.colum-3{
+  float: left;
+  width: 33.333333%;
+  height: 100%;
 }
