@@ -518,6 +518,7 @@ header{
 footer{
   position: relative;
   height: 415px;
+  min-width: 1280px;
   background-color: #32353e;
   text-align: center;
   color: #fff;
