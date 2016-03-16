@@ -1,0 +1,167 @@
+body{
+	background-color: rgb(222,222,222);
+	margin: 0;
+	padding: 0;
+}
+
+/*头部样式*/
+header{
+	background-color: rgb(51,51,51);
+}
+header img{
+	float: left;
+	margin-left: 2em;
+	max-height: 60px;
+}
+
+header ul{
+	display: inline-block;
+	float:right;
+	list-style: outside none disc;
+}
+header ul li{
+	float: left;
+	margin-left: 1em;
+}
+
+.header_li{
+	color: #535459;
+}
+
+
+
+
+/*所有section的统一样式*/
+section{
+	margin: 25px;
+	padding: 20px;
+	background-color: white;
+	/*box-shadow: h-shadow v-shadow blur spread color inset;*/
+	box-shadow: 2px 2px  5px #888888;
+}
+
+/*所有section中的标题样式*/
+h2{font-size: 18px;}
+h3{color: rgb(103,107,110);font-size: 15px;}
+h4{color: #706D8B;font-size: 12px;}
+
+/*section3中的具体样式*/
+#sec3{
+
+}
+.box{
+	list-style: none;
+	zoom:1; /* 适用于IE,使ul能自适应高度 */
+}
+.imgbox{
+}
+.imgbox div{
+	padding: 10px;
+	margin: 10px;
+	border:1px solid gray;
+	display: inline-block;
+	float: left;
+	clear: both;
+}
+#sec3 p{text-align: center;margin: 0 0 10px 0;}
+#sec3 img{
+	max-width: 100px;
+	min-height: 80px;
+}
+
+
+
+
+
+/*section4中的具体样式*/
+table{
+	border:1px solid #CCCCCC;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-weight: bold;
+	border-collapse: collapse;/*合并边框*/
+}
+td{
+	border:1px solid #CCCCCC;
+	padding: 5px;
+}
+/*table表头样式*/
+.th{
+	background-color: rgb(51,51,51);
+	color: white;
+	border:1px solid #CCCCCC;
+}
+/*table表尾样式*/
+.sum{
+	background-color: rgb(204,204,204);
+}
+thead{width: 1024px;}
+
+
+
+
+
+/*section5中的具体样式*/
+/*标题样式*/
+.h2{border-left: 4px solid rgb(204,204,204);height: 3em;}
+h2{font-size: 18px;margin-left: 20px;padding: 5px;line-height: 1.8em;}
+
+/*用户信息样式*/
+#user_info{
+	width: 100%;
+	margin-top: 10px;
+}
+
+label{
+	display: inline-block;
+	width: 40%;
+	text-align: right;
+	margin-right: 1em;
+	margin-top: 0.7em;
+}
+
+.info_box{
+	margin-top: 0.3em;
+}
+/*email*/
+.form_block{
+	display: inline-block;
+	margin-right: 1em;
+	margin-top: 0.7em;
+	vertical-align: top;
+}
+.request{
+	color: gray;
+	font-size: 0.7em;
+}
+
+textarea{
+	height: 10em;
+	width: 50%;
+	vertical-align: text-top;
+}
+
+.submit{
+	width: 100%;
+	border-radius: 10px;
+	background-color: rgb(51,85,208);
+	color: white;
+	font-weight: bold;
+	height: 3em;
+}
+
+/*footer样式*/
+footer{
+	width: 100%;
+	height: 5em;
+	background-color: black;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: white;
+	font-weight: bold;;
+	font-size: 0.8em;
+	line-height: 4em;
+	margin: 0;
+}
