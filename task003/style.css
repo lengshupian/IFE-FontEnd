@@ -1,5 +1,6 @@
 body{
 	padding: 20px;
+	margin: 0;
 }
 #box{
 	border:1px solid #999;
@@ -68,10 +69,48 @@ body{
 }
 
 
-@media only screen and (max-width: 300px) {
+@media screen and (max-width: 640px) {
     body {
         background-color:lightblue;
     }
+    .left{
+    	clear: both;
+    }
+    .center{
+		background-color: white;
+		padding: 20px;
+		border:1px solid #999;
+		position: relative;
+		margin-left: 0px;
+		margin-top: 167px;
+		width: 160px;
+    }
 }
 
+@media screen and (max-width: 405px) {
+    body {
+        background-color:red;
+    }
+    .left{
+    	clear: both;
+    	width: 90%;
+    }
+    .center{
+    	width: 90%;
+		background-color: white;
+		padding: 20px;
+		border:1px solid #999;
+		position: relative;
+		margin-left: 0px;
+		margin-top: 420px;
+    }
+    .right{
+    	width: 90%;
+    	margin-top: 1em;
+    	position: relative;
+    	left: 10px;
+    }
+    .person{
+    	display: inline-block;
+    }
 }
